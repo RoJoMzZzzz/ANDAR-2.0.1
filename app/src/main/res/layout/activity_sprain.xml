@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.andarpoblacion.andrade.andar.SprainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/sprain2"
+                android:id="@+id/imageVie"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:cropToPadding="true"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:text="Your ligaments are tough, elastic-like bands that connect bone to bone and hold your joints in place. A sprain is an injury to a ligament caused by tearing of the fibers of the ligament. The ligament can have a partial tear, or it can be completely torn apart."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:text="Follow the instructions for R.I.C.E."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:text="Rest the injured limb. Your doctor may recommend not putting any weight on the injured area for 48 hours, so you may need to use crutches. A splint or brace may also be helpful initially. But don't avoid all activity. Even with an ankle sprain, you can usually still exercise other muscles to minimize deconditioning. For example, you can use an exercise bicycle with arm exercise handles, working both your arms and the uninjured leg while resting the injured ankle on another part of the bike. That way you still get three-limb exercise to keep up your cardiovascular conditioning."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Ice the area. Use a cold pack, a slush bath or a compression sleeve filled with cold water to help limit swelling after an injury. Try to ice the area as soon as possible after the injury and continue to ice it for 15 to 20 minutes, four to eight times a day, for the first 48 hours or until swelling improves. If you use ice, be careful not to use it too long, as this could cause tissue damage."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Compress the area with an elastic wrap or bandage. Compressive wraps or sleeves made from elastic or neoprene are best."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Elevate the injured limb above your heart whenever possible to help prevent or limit swelling."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Sprains can take days to months to recover. As the pain and swelling improve, gently begin using the injured area. You should feel a gradual, progressive improvement. Over-the-counter pain relievers, such as ibuprofen (Advil, Motrin IB, others) and acetaminophen (Tylenol, others), may be helpful to manage pain during the healing process. It's essential to restore strength and stability to the injured limb prior to a return to sports or fitness activities. A physical therapist or other sports medicine provider can provide you with the appropriate strength and stability exercises to optimize healing and minimize the risk of repeat injury."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

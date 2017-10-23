@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.andarpoblacion.andrade.andar.CprActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/cpr"
+                android:id="@+id/imageVie"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:cropToPadding="true"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:text="Cardiopulmonary resuscitation (CPR) is a lifesaving technique useful in many emergencies, including heart attack or near drowning, in which someone's breathing or heartbeat has stopped. The American Heart Association recommends that everyone — untrained bystanders and medical personnel alike — begin CPR with chest compressions."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textd"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:text="Remember to spell C-A-B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:text="The American Heart Association uses the acronym of CAB — compressions, airway, breathing — to help people remember the order to perform the steps of CPR."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                 />
+
+            <TextView
+                android:text="Compressions: Restore blood circulation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Put the person on his or her back on a firm surface."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Kneel next to the person's neck and shoulders."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Place the heel of one hand over the center of the person's chest, between the nipples. Place your other hand on top of the first hand. Keep your elbows straight and position your shoulders directly above your hands."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Use your upper body weight (not just your arms) as you push straight down on (compress) the chest at least 2 inches (approximately 5 centimeters) but not greater than 2.4 inches (approximately 6 centimeters). Push hard at a rate of 100 to 120 compressions a minute."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="If you haven't been trained in CPR, continue chest compressions until there are signs of movement or until emergency medical personnel take over. If you have been trained in CPR, go on to checking the airway and rescue breathing."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Airway: Clear the airway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="If you're trained in CPR and you've performed 30 chest compressions, open the person's airway using the head-tilt, chin-lift maneuver. Put your palm on the person's forehead and gently tilt the head back. Then with the other hand, gently lift the chin forward to open the airway."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Check for normal breathing, taking no more than five or 10 seconds. Look for chest motion, listen for normal breath sounds, and feel for the person's breath on your cheek and ear. Gasping is not considered to be normal breathing. If the person isn't breathing normally and you are trained in CPR, begin mouth-to-mouth breathing. If you believe the person is unconscious from a heart attack and you haven't been trained in emergency procedures, skip mouth-to-mouth breathing and continue chest compressions."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Breathing: Breathe for the person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="With the airway open (using the head-tilt, chin-lift maneuver), pinch the nostrils shut for mouth-to-mouth breathing and cover the person's mouth with yours, making a seal."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Prepare to give two rescue breaths. Give the first rescue breath — lasting one second — and watch to see if the chest rises. If it does rise, give the second breath. If the chest doesn't rise, repeat the head-tilt, chin-lift maneuver and then give the second breath. Thirty chest compressions followed by two rescue breaths is considered one cycle. Be careful not to provide too many breaths or to breathe with too much force."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Resume chest compressions to restore circulation."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="If the person has not begun moving after five cycles (about two minutes) and an automated external defibrillator (AED) is available, apply it and follow the prompts. Administer one shock, then resume CPR — starting with chest compressions — for two more minutes before administering a second shock. If you're not trained to use an AED, a 911 or other emergency medical operator may be able to guide you in its use. If an AED isn't available, go to step 5 below."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Continue CPR until there are signs of movement or emergency medical personnel take over."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

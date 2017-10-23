@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context="com.andarpoblacion.andrade.andar.EmergencyFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:divider="?android:attr/dividerHorizontal"
+            android:showDividers="middle"
+            android:stretchColumns="*"
+            android:padding="10dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:drawableStart="@drawable/redqr"
+                android:drawableLeft="@drawable/redqr"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:text="My QR Code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnQRCode"
+                android:background="@drawable/sel"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:layout_gravity="start"
+                />
+
+            <Button
+                android:id="@+id/btnMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@drawable/sel"
+                android:drawableLeft="@drawable/sms2"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/sms2"
+                android:padding="5dp"
+                android:text="Message Contacts"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnContacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sel"
+                android:text="Emergency Contacts"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:drawableStart="@drawable/contact"
+                android:drawableLeft="@drawable/contact"
+                android:drawablePadding="10dp"
+                />
+
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sel"
+                android:text="Emergency Hotlines"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:drawableStart="@drawable/call"
+                android:drawableLeft="@drawable/call"
+                android:drawablePadding="10dp"
+                />
+
+            <Switch
+                android:text="Flashlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/swtFlashlight"
+                android:padding="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <Switch
+                android:text="Strobe Flashlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/swtStrobe"
+                android:padding="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <Switch
+                android:text="Screen as Flashlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/swtScreenFlash"
+                android:padding="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <Switch
+                android:text="Alarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/swtAlarm"
+                android:padding="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btnQrCodeScanners"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sel"
+                android:text="QR Code Scanner"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

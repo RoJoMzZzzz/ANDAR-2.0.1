@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.andarpoblacion.andrade.andar.Volcano">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/volcano1"
+                android:id="@+id/imageVie"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:cropToPadding="true"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:text="A volcano is an opening or rupture in the eath\'s surface or crust, which allows pyroclastic materials and gases to escape from below the surface, and generally found where tectonic plates are diverging or converging."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textd"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:text="Before"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVie"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Be prepared to evacuate to higher ground at a moment\'s notice with your emergency kit."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Buy a battery or hand-crank radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVew11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="After"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textafterVie"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Stay away from volcanic ashfall areas."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVol"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="When outside"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVi2e"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Keep your mouth and nose covered and wear long-sleeved shirts and pants to protect against ash irritation. Also wear goggles or glasses to protext your eyes."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVi3ew11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Clear roofs of ashfall. It is very heavy and can cause buildings to collapse.\n Exercise great caution when working on a roof."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVew1123"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Stay indoors until local health officials advise it is safe to go outside.\n Stay indoors until local health officials advise it is safe to go outside."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2extVe2w11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

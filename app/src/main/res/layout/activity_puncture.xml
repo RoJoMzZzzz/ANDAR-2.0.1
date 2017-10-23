@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.andarpoblacion.andrade.andar.PunctureActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/puncture"
+                android:id="@+id/imageVie"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:cropToPadding="true"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:text="A puncture wound, such as from stepping on a nail, doesn't usually cause excessive bleeding. But these wounds are often deep and can be dangerous because of the risk of infection. To reduce the risk of infection, prompt treatment and close monitoring for signs of infection are important."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:text="Wash your hands. This helps avoid infection."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Stop the bleeding. Apply gentle pressure with a clean bandage or cloth."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Clean the wound. Rinse the wound with clear water for five to 10 minutes. If dirt or debris remains in the wound after washing, use tweezers cleaned with alcohol to remove the particles. See a doctor if you can't remove all of the debris. Clean the skin around the wound with soap and a washcloth."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Apply an antibiotic. Apply a thin layer of an antibiotic cream or ointment (Neosporin, Polysporin). Certain ingredients in some ointments can cause a mild rash in some people. If a rash appears, stop using the ointment and seek medical care."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Cover the wound. Bandages help keep the wound clean."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Change the dressing. Do this at least once a day or whenever the bandage becomes wet or dirty."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Watch for signs of infection. See a doctor if the wound isn't healing or you notice any redness, increasing pain, drainage, warmth or swelling."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000"
+                android:layout_marginBottom="50dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

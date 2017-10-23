@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.andarpoblacion.andrade.andar.Tsunami">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/tsunami1"
+                android:id="@+id/imageVie"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:cropToPadding="true"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:text="Tsunamis, also known as seismic sea waves (mistakenly called \'tidal waves\'), are a series of enormous waves created by an underwater disturbance such as an earthquake, landslide, volcanic eruption, or meteorite. A tsunami can move hundreds of miles per hour in the open ocean and smash into land with waves as high as 100 feet or more."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textd"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:text="Before"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVie"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Find out if your home, school, workplace or other frequently visited location are in tsunami hazard areas."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Buy a a battery or hand-crank radio."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVew11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Plan evacuation routes to areas 100 ft above sea level or 2 miles inland. If you can\'t, go as high and far away as you can."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtView11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="During a potential tsunami situation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/twextVie"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="If you are in a coastal area and feel an earthquake that lasts 20 seconds or longer a tsunami may come within minutes."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1122"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="If you feel an eartquake, drop, cover and hold on."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2extVew11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="When shaking stops, move quickly to higher ground away from the coast."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVi2ew11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Avoid downed power lines and stay away from buildings and bridges from which heavy objects might fall during an aftershock."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2xtVi2ew11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Review evacuation plans with household members. Be ready to move quickly if a tsunami warning is issued."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVi2ew211"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="During a tsunami warning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/twextVie2"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Take household members and get to higher ground as far inland as possible, taking your pets and your emergency preparedness kit with you."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text2View1122"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Watching a tsunami could put you in grave danger. if you can see the wave, you are too close to escape it."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVi2ew21w1"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="After"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAfter"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Return home only after local officials tell you it is safe. A tsunami is a series of waves that may continue for hours."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text1122"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Do not assume that after one wave the danger is over. The next wave may be larger than the first one."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVi2ew"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Stay out of any building that has water around it. Tsunami water can cause floors to crack or walls to collapse."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVi2eww"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000"
+                android:layout_marginBottom="50dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

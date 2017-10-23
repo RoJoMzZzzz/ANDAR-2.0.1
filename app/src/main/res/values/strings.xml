@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">ANDAR</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string name="title_activity_resident">ResidentActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="loc">
+        <item>C. Almeda St.</item>
+        <item>A. Mabini St.</item>
+        <item>G. Flores St.</item>
+        <item>P. Tangco St.</item>
+        <item>J. Rizal St.</item>
+        <item>P. Herrera St.</item>
+        <item>B. Morcilla St.</item>
+        <item>S. Tuazon  St. - 1st Block</item>
+        <item>S. Tuazon  St. - 2nd Block</item>
+        <item>S. Tuazon  St. - 3rd Block</item>
+        <item>Select your street name</item>
+    </string-array>
+
+    <string-array name="ass">
+        <item>Earthquake</item>
+        <item>Fire</item>
+        <item>Flood</item>
+        <item>Landslide</item>
+        <item>Tsunami</item>
+        <item>Typhoon</item>
+        <item>Volcano</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="local">
+        <item>Barangay Poblacion</item>
+        <item>Fire</item>
+        <item>Police</item>
+        <item>Rescue</item>
+    </string-array>
+
+    <string-array name="nearby">
+        <item>Bonifacio Fire Department</item>
+        <item>Makati Fire Department</item>
+        <item>Pasay Fire Department</item>
+        <item>Pasig Fire Department</item>
+        <item>Taguig Fire Department</item>
+    </string-array>
+
+    <string-array name="send">
+        <item>Barangay Poblacion</item>
+        <item>Emergency Contacts</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="ncr">
+        <item>Bureau of Fire Protection</item>
+        <item>DOH</item>
+        <item>DOTC</item>
+        <item>DPWH</item>
+        <item>MMDA Flood Control</item>
+        <item>MMDA Metrobase</item>
+        <item>NDRRMC</item>
+        <item>PAGASA</item>
+        <item>Philippine Coast Guard</item>
+        <item>PNP Hotline Patrol</item>
+        <item>Red Cross</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Locator</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_admin">AdminActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="blood_type">Select Your Blood Type</string>
+
+
+    <string-array name="blood">
+        <item>O-</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+        <item>Select Your Blood Type Here</item>
+    </string-array>
+
+    <string-array name="reportType">
+        <item>ALL</item>
+        <item>DONE</item>
+        <item>NEEDS FURTHER ASSISTANCE</item>
+        <item>NEGATIVE (FAKE)</item>
+        <item>Select Report Type Here</item>
+    </string-array>
+
+</resources>

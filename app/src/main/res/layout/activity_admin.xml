@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context="com.andarpoblacion.andrade.andar.AdminActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btnAlert"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/circle2"
+                android:drawableTop="@android:drawable/ic_dialog_alert"
+                android:paddingTop="20dp"
+                android:text="Alerts"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnReport"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/circle2"
+                android:drawableTop="@android:drawable/ic_menu_edit"
+                android:paddingTop="20dp"
+                android:text="Reports"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btnUsers"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/circle2"
+                android:drawableTop="@android:drawable/ic_menu_my_calendar"
+                android:paddingTop="20dp"
+                android:text="Users"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnRequest"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/circle2"
+                android:drawableTop="@android:drawable/ic_menu_add"
+                android:paddingTop="20dp"
+                android:text="Request"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

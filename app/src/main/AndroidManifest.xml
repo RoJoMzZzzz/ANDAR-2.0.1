@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andarpoblacion.andrade.andar">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".ResidentActivity"
+            android:label="@string/title_activity_resident"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyQR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewQR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmergencyContacts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditEmergencyContacts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".References"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScanQR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Earth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fire"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Flood"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Landslide"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tsunami"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Typhoon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Volcano"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".SmsBroadcastReceiver"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".NewQR2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmergencyHotlines3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PreScanQR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScannedQR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rescue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrepareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirstAidActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AlertActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FlashlightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UsersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReportAdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivateUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AlertRescueActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RescueReportsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnaphylaxisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BurnsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CprActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CutsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DislocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ElectricalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FractureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HeartAttackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HeatStrokeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PunctureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SeverActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpinalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SprainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StrokeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+    </application>
+
+</manifest>

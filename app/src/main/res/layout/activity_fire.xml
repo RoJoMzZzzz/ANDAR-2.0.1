@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.andarpoblacion.andrade.andar.Fire">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/fire1"
+                android:id="@+id/imageVie"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:cropToPadding="true"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:text="The greatest cause of death are home fires. Most fire deaths are preventable with careful action. It is important to safeguard your home and be prepared to evacuate should be there be a fire."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textd"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:text="Before"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVie"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Have and practice escape plans with all household members. Make sure the escape route is always kept clear, and that door keys are easy to find."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Never leave cooking food unattended."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVew11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Keep objects at least 3 feet from any heat source."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtView11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="Don\'t smoke anywhere you may fall asleep."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVi11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="During"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVieWS"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Get out, stay out, and ask for help."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txxxtView11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="If trapped, stay close to the floor, covering your nose and mouth with a wet cloth, if possible."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/xtView11"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000" />
+
+            <TextView
+                android:text="If your clothes are on fire: STOP, DROP, and ROLL."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtView1143"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/bullet"
+                android:drawablePadding="25dp"
+                android:drawableStart="@drawable/bullet"
+                android:textColor="#000"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

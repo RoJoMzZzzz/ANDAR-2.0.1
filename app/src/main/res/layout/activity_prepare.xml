@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorButtonNormal"
+    tools:context="com.andarpoblacion.andrade.andar.PrepareActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:showDividers="middle"
+            android:divider="?android:attr/dividerHorizontal"
+            android:stretchColumns="*"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+
+            <Button
+                android:text="Earthquake"
+                android:drawableStart="@drawable/earthquake"
+                android:drawableLeft="@drawable/earthquake"
+                android:drawablePadding="10dp"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:background="@drawable/sel"
+                android:scaleType="fitXY"
+                android:id="@+id/btnEarthquake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:text="Fire"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnFire"
+                android:drawableStart="@drawable/fire"
+                android:drawableLeft="@drawable/fire"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:drawablePadding="10dp"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:background="@drawable/sel"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:text="Flood"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnFlood"
+                android:drawableStart="@drawable/flood"
+                android:drawableLeft="@drawable/flood"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:background="@drawable/sel"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:text="Landslide"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLandslide"
+                android:drawableStart="@drawable/landslide"
+                android:drawableLeft="@drawable/landslide"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:drawablePadding="10dp"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:background="@drawable/sel"
+
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:text="Tsunami"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnTsunami"
+                android:drawableStart="@drawable/tsunami"
+                android:drawableLeft="@drawable/tsunami"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:drawablePadding="10dp"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:background="@drawable/sel"
+
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:text="Typhoon"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnTyphoon"
+                android:drawableStart="@drawable/typhoon"
+                android:drawableLeft="@drawable/typhoon"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:drawablePadding="10dp"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:background="@drawable/sel"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:text="Volcano"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnVolcano"
+                android:drawableStart="@drawable/volcano"
+                android:drawableLeft="@drawable/volcano"
+                android:drawablePadding="10dp"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:background="@drawable/sel"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:layout_marginBottom="50dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_flood"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context="com.andarpoblacion.andrade.andar.Flood">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/flood1"
+        android:id="@+id/imageVie"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:cropToPadding="true"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:text="Floods are among the most frequent and costly natural disasters caused by heavy or steady rain for several hours or days. Flash floods occur suddenly due to rapidly rising water along a stream or low-lying area.."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textd"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="Before"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textVie"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Clean Canals and drainage that may possibly be the cause of flooding in the area."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/bullet"
+        android:drawablePadding="25dp"
+        android:drawableStart="@drawable/bullet"
+        android:textColor="#000" />
+
+        <TextView
+            android:text="Buy a battery or hand-crank radio and listen to local area and listen to local area radio or TV stations for possible flood warnings and reports of floods in progress."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textV11"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="Be prepared to evacuate to higher ground at a moment\'s notice with your emergency kit."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/xtVew11"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="Turn off the power and water mains."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView112"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="During"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/texthoVie"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Stay away from flood waters. Just six inches of fast-flowing water can knock you over and two feet will float a car."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVihohoew11"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="Continue listening to local area radio or TV stations for updates and possible warnings."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVihooew11"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="Floodwater may be contaminated with sewage. Avoid all contact with it."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVihooe1"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:text="Returning home - before"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/texthoVie1"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Make sure local authorities have declared you are safe."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVihohoew111"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="Find out local medical facilities are open and if emergency services are functioning again. Do NOT call 143 or the local emergency number to do this."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVihooew113"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="Bring cash and supplies such as flashlights, batteries, bottled water and nonperishable foods in case utilities are out."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVihoe1"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="Returning home - in the home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/texthoVie12"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Before entering your home, check for loose power lines, damaged gas lines, foundation cracks or other damages, including sagging ceilings and floors."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVihohoew11123"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="If you smell natural or propane gas or hear a hissing noise, leave immediately and call the fire department."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVoew113"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="If power lines are down outside your home, do not step in puddles or standing water."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="Floodwater may be contaminated with sewage. Avoid contact and dispose of any food that may have come in contact with it.\n When in doubt, throw it out!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tex2t"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000" />
+
+        <TextView
+            android:text="Returning home - cleanup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/texthoVi2"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Throw out all food, beverages and medicine exposed to flood waters and mud, including canned goods and containers with food or liquid that have been sealed shut."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teihoho"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="25dp"
+            android:drawableStart="@drawable/bullet"
+            android:textColor="#000"
+            android:layout_marginBottom="50dp"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

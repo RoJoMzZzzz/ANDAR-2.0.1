@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Dashboard">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                android:checkable="true" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send"
+                android:checkable="true" />
+        </menu>
+    </item>
+
+    <item android:title="Users">
+        <menu>
+            <item
+                android:id="@+id/nav_activities"
+                android:icon="@drawable/ic_menu_camera"
+                android:checkable="true"
+                android:title="Alerts" />
+            <item
+                android:id="@+id/nav_list"
+                android:icon="@drawable/ic_menu_gallery"
+                android:checkable="true"
+                android:title="Members" />
+            <item
+                android:id="@+id/nav_request"
+                android:icon="@drawable/ic_menu_camera"
+                android:checkable="true"
+                android:title="Requests" />
+            <item
+                android:id="@+id/nav_reported_member"
+                android:icon="@drawable/ic_menu_gallery"
+                android:checkable="true"
+                android:title="Reported Members" />
+        </menu>
+    </item>
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_export_reports"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Export Reports" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+    </group>
+
+</menu>

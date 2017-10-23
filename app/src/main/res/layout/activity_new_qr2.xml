@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_new_qr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context="com.andarpoblacion.andrade.andar.NewQR2"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="1234567890."
+                    android:hint="Height in cm"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="1234567890."
+                    android:hint="Weight in kg"
+                    android:layout_margin="10dp"
+                    android:inputType="numberDecimal"
+                    android:padding="8dp"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/spnBloodType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="0.01"
+                android:padding="8dp"
+                android:prompt="@string/blood_type"
+                android:spinnerMode="dialog"
+            />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:text="MEDICAL HISTORY"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="bold|normal">
+
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/chkAllergy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Allergy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="8dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/edtAllergy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM1234567890"
+                    android:hint="Please specify the allergy"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:visibility="gone" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:id="@+id/chkAmoebiasis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amoebiasis"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkAnemia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anemia"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkAsthma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asthma"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkCancer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancer/Tumor"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="8dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtCancer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM1234567890"
+                    android:hint="Please specify"
+                    android:maxLines="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="8dp"
+                    android:visibility="gone"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:id="@+id/chkChronic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chronic Cough"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkDiabetes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diabetes"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkDysmenorrhea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dysmenorrhea"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkFainting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fainting Spells/Seizure"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkEar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ear Trouble/Deafness"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkEndocrine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endocrine Disorders"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkFrequent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frequent Headaches"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Head or Neck Injury"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkHeart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heart Diseases/Trouble"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkHernia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hernia (Ruptured)"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkHigh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="High Blood Pressure"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkInsomia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insomia"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkKidney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kidney Disease"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkMental"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mental Disorders"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkNervous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nervous Breakdown"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkNose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nose or Throat Trouble"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkPeptic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peptic Ulcer/ Stomach Pain"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/chkTuberculosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuberculosis"
+                android:layout_margin="10dp"
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/edtOthers"
+                android:hint="Any information you want to include"
+                android:layout_gravity="top"
+                android:layout_margin="10dp"
+                android:background="@drawable/edt_back"
+                android:gravity="top"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:padding="8dp"
+                android:text="Update QR Code" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_emergency"
+        android:icon="@drawable/ic_emergency_black"
+        android:title="EMERGENCY" />
+
+    <item
+        android:id="@+id/navigation_prepare"
+        android:icon="@drawable/ic_prepare_black"
+        android:title="PREPARE" />
+
+    <item
+        android:id="@+id/navigation_update"
+        android:icon="@drawable/ic_update_black"
+        android:title="UPDATE" />
+
+    <!--<item
+        android:id="@+id/navigation_rescue"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="RESCUE" />-->
+
+</menu>
